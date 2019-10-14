@@ -1,9 +1,40 @@
 /* Container */
-.container{
+@media screen and (min-width: 1200px){
+    .container{
+        width: 1140;
+        /* margin: 10%; */
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 720;
+        /* margin: 10%; */
+        margin: 0 auto;
+    }
+}
+/* Entre 992 et 1200 */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 960;
+        /* margin: 10%; */
+        margin: 0 auto;
+    }
+}
+/* Entre 768 et 992 */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .container{
+        width: 720;
+        /* margin: 10%; */
+        margin: 0 auto;
+    }
+}
+
+/* .container{
     width: 80%;
     /* margin: 10%; */
     margin: 0 auto;
-}
+} */
 /* Ligne */
 .row{
     border: 1px solid red;
