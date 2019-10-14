@@ -1,0 +1,23 @@
+/* Ligne */
+.row{
+
+}
+/* Colonnes */
+.col{
+    float: left;
+    background-color: lightgray;
+    /* margin: 10px 10px; */
+    margin: 10px 1,041666667%; 
+    /* 10/960 */
+}
+.col-4{
+    /* width: 300px;     */
+    /* 300/960  = 0,3125  */
+    width: 31.25%;
+
+}
+.col-8{
+    /* width: 620px; */
+    width: 64.583333333%; /* 620/960 */
+
+}
